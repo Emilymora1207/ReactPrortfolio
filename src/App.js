@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import PortfolioContainer from "./components/PortfolioContainer";
+// import Portfolio from './components/pages/Portfolio';
+// import projects from './projects';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import './styles/global.css'
 
-export default App;
+
+
+// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
+
+// const App = () => {
+//     const style = {
+//         backgroundImage: 'imaage'
+//     }
+//     <PortfolioContainer />}
+//     ;
+
+// export default App;
+
+export default function App() {
+    return (
+      <div>
+        <PortfolioContainer />
+        {/* <Portfolio projects={projects} /> */}
+      </div>
+    );
+  }
+  

@@ -1,0 +1,97 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  /* background-image: url(../assets/headerBackground.jpg); */
+  background-image: url(../assets/headerBackground.jpg);
+  background-size: cover;
+    justify-content: space-around;
+    color: white;
+  height: 200px;
+  align-items: center;
+}
+
+
+.nav {
+  display: flex;
+    list-style-type: none;
+
+}
+
+
+.nav li {
+  padding: 20px;
+    margin: 0 20px;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  color: rgb(124, 134, 127);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  background-size: cover;
+}
+
+.container a {
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form input, .form textarea {
+  margin: 10px;
+  width: 300px;
+  background-color: rgba(243, 239, 232, 0.5);
+}
+
+.formMessage {
+  height: 200px;
+  vertical-align: text-top;
+  background-color: rgba(243, 239, 232, 0.5);
+
+}
+
+.form button {
+  width: 60px;
+  align-self: flex-end;
+}
+
+
+
+.aboutSection {
+  display: flex;
+}
+
+.aboutSection * {
+  padding: 20px;
+}
+
+.aboutSection p {
+  width: 500px;
+}
+
