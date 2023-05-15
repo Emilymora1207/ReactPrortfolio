@@ -3,28 +3,86 @@ import React, { useState } from 'react';
 
 // import './style.css';
 
+
 function Contact() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('')
+  const [errorMessage, setErrorMessage] = useState('')
+  const [validName, setValidName] = useState(false);
+  const [validEmail, setValidEmail] = useState(false);
+  const [validMessage, setValidMessage] = useState(false);
+
+  // const [isValid, setIsValid] = useState(false);
+  const [disabler, setDisabler] = useState(true)
+
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
+
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { name, value } = e.target;
-
     if (name === 'name') {
-        return setName(value);
+      if (value === '') {
+        setErrorMessage('Name is required')
+        setValidName(false);
+
+      } else {
+        setErrorMessage('')
+        setValidName(true);
+
+      }
+        setName(value);
     } else if (name === 'email') {
-        return setEmail(value);
+      if (value === '') {
+        setErrorMessage('Email is required')
+
+      } else {
+        setErrorMessage('')
+
+
+      }
+      if (!isValidEmail(value)) {
+         setErrorMessage('Please use a valid email');
+         setValidEmail(false);
+
+        } else {
+        setErrorMessage('');
+        setValidEmail(true);
+
+
+      }
+        setEmail(value);
     } else {
+      if (value === '') {
+        setErrorMessage('Message is required')
+        setValidMessage(false);
+      } else {
+        setErrorMessage('')
+        setValidMessage(true);
+
+
+      }
         setMessage(value);
     }
+    if(validName&&validEmail&&validMessage) {
+      setDisabler(false);
+    } else {
+      setDisabler(true);
+    }
+
   };
 
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
+
+
     // const { name, email, message } = e.target.elements;
     let details = {
       name,
@@ -48,7 +106,17 @@ function Contact() {
     setMessage('');
   };
 
+
+
+  // const handlepageChange = event => {
+  //   if (!isValidEmail(event.target.value)) {
+  //     console.log('Email is invalid');
+  //   } else {
+  //     console.log(null);
+  //   }
+
   return (
+    <div className='section'>
     <div className='contact container'>
       <h1>Contact</h1>
       <form className="form">
@@ -74,10 +142,12 @@ function Contact() {
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <p className='errMessage'>{errorMessage}</p>
+        <button disabled={disabler ? true : false } type="button" onClick={handleFormSubmit}>
        Submit
         </button>
       </form>
+    </div>
     </div>
   );
 }

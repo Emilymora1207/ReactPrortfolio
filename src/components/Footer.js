@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return(
         <div className='footer' >
-            <i src='../../assets/github-mark.png'/>
+            <img src='../../assets/github-mark.png'/>
         </div>
     );
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import PortfolioContainer from "./components/PortfolioContainer";
-// import Portfolio from './components/pages/Portfolio';
-// import projects from './projects';
+import Footer from './components/Footer';
 
 import './styles/global.css'
 
@@ -22,6 +21,7 @@ export default function App() {
     return (
       <div>
         <PortfolioContainer />
+        <Footer />
         {/* <Portfolio projects={projects} /> */}
       </div>
     );

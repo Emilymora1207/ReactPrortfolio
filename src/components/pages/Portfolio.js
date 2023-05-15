@@ -16,7 +16,7 @@ function Portfolio() {
                     <section className="project" style={{ backgroundImage: `${project.image}`}}>
                         {/* {`${user.name.first} ${user.name.last} (${user.login.username})`} */}
                         <a href={project.deployed}>{project.title}</a>
-                        <a href={project.gitHub}><image src='../../assets/github-mark.png'/></a>
+                        <a href={project.gitHub}><img src='../../assets/github-mark.png'/></a>
                     </section>
                 ))}
         </div>

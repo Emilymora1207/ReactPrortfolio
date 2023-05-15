@@ -2,6 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: rgb(171,249,194);
-  background: radial-gradient(circle, rgba(171,249,194,1) 0%, rgba(233,217,191,1) 100%);
+  /* background: rgb(171,249,194);
+  background: radial-gradient(circle, rgba(171,249,194,1) 0%, rgba(233,217,191,1) 100%); */
+  background-image: url(../assets/steve-johnson-n1PufI05GMo-unsplash\ \(1\).jpg);
+  background-size: cover
 }

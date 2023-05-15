@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -36,7 +35,7 @@ export default function PortfolioContainer() {
       projects={projects} frontEnd={frontEnd} backEnd={backEnd} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-      <Footer />
+
     </div>
   );
 }
