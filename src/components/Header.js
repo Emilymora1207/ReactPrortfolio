@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../styles/Header.css'
+import '../styles/portfolio.css'
 
 // const style = {
 //   header: {

@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import projects from '../projects';
+import Footer from './Footer';
 
 const frontEnd = ['Html', 'CSS', 'JavaScript','JQuery', 'Bootstrap', 'AJAX', 'SASS' ];
 const backEnd = ['MySQL', 'MongoDB', 'Express', 'ReactJS', 'Node', 'Handlebars', 'Firebase', 'AWS', 'Webpack'];
@@ -29,12 +30,13 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='holdAll'>
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange}
       projects={projects} frontEnd={frontEnd} backEnd={backEnd} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
 
     </div>
   );

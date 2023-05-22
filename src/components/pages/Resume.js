@@ -7,19 +7,19 @@ function Resume() {
     const backEnd = ['MySQL', 'MongoDB', 'Express', 'ReactJS', 'Node', 'Handlebars', 'Firebase', 'AWS', 'Webpack'];
 
     return (
-        <div className="container">
+        <div className="resume">
             <h1>Resume</h1>
             <p>Click to download my <a href={resumeLink}>Resume</a></p>
             <h2>Front End Proficiencies</h2>
             <ul>
-                {frontEnd.map((frontEnd) => {
-                    <li>{frontEnd}</li>
+                {frontEnd.map((front) => {
+                    return <li>{front}</li>
                 })}
             </ul>
             <h2>Back End Proficiencies</h2>
             <ul>
-                {backEnd.map((backEnd) => {
-                    <li>{`${backEnd}`}</li>
+                {backEnd.map((back) => {
+                    return <li>{`${back}`}</li>
                 })}
             </ul>
 

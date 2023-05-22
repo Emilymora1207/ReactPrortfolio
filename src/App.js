@@ -1,6 +1,5 @@
 import React from 'react';
 import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from './components/Footer';
 
 import './styles/global.css'
 
@@ -21,7 +20,6 @@ export default function App() {
     return (
       <div>
         <PortfolioContainer />
-        <Footer />
         {/* <Portfolio projects={projects} /> */}
       </div>
     );

@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from "../../assets/profilePic.jpg";
 
 function About() {
     const profileImg = '../../assets.profilePic.jpg'
@@ -8,7 +9,7 @@ function About() {
         <div className="about container">
             <h1>About Me</h1>
             <div className='aboutSection'>
-                <img alt='Profile' src='../../assets\profilePic.jpg' />
+                <img alt='Profile' src={profileImage} />
                 <p>{aboutMe}</p>
             </div>
         </div>

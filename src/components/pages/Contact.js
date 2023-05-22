@@ -116,7 +116,7 @@ function Contact() {
   //   }
 
   return (
-    <div className='section'>
+    // <div className='section'>
     <div className='contact container'>
       <h1>Contact</h1>
       <form className="form">
@@ -148,7 +148,7 @@ function Contact() {
         </button>
       </form>
     </div>
-    </div>
+    // </div>
   );
 }
 
