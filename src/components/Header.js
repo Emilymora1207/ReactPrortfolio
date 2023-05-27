@@ -2,21 +2,6 @@ import React from "react";
 
 import '../styles/portfolio.css'
 
-// const style = {
-//   header: {
-//     display: 'flex',
-//     backgroundImage: './assets/headerBackground.jpg',
-//     justifyContent: 'space-around'
-//   },
-//   nav: {
-//     display: 'flex',
-//     listStyleType: 'none'
-//   },
-//   links: {
-//     padding: '20px',
-//     margin: '0 20px'
-//   }
-// }
 
 function Header({currentPage, handlePageChange}) {
     return(

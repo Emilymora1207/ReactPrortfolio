@@ -4,6 +4,7 @@ import gitHub from '../../assets/github-mark.png';
 import project1 from '../../assets/weatherProjectImage.png';
 import project2 from '../../assets/dailyPlanner.png';
 import project3 from '../../assets/passwordGenerator.png'
+import project4 from '../../assets/socBackEnd.png'
 
 const images = {
     project1,
