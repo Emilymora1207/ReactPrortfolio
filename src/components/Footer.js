@@ -8,8 +8,8 @@ function Footer() {
     return (
         <div className="centered">
             <div className='footer' >
-                <a href='https://github.com/Emilymora1207'><img alt='github Logo' src={gitHub} /></a>
-                <a href='https://www.linkedin.com/in/emily-mora-4135b6248/'><img alt="linkedIn Logo" src={linkedIn} /></a>
+                <a href='https://github.com/Emilymora1207' target="_blank"><img alt='github Logo' src={gitHub} /></a>
+                <a href='https://www.linkedin.com/in/emily-mora-4135b6248/' target="_blank"><img alt="linkedIn Logo" src={linkedIn} /></a>
             </div>
         </div>
     );

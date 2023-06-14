@@ -1,5 +1,11 @@
 const projects = [
     {
+        title: 'Medication Tracker',
+        image: './assets/medicationTracker.png',
+        gitHub: 'https://github.com/Emilymora1207/MedicationTracker.git',
+        deployed: 'https://stark-brook-88760.herokuapp.com/'
+    },
+    {
         title: 'weatherforecast',
         image: './assets/weatherProjectImage.png',
         gitHub: 'https://github.com/Emilymora1207/Weather-Forecast.git',
@@ -23,6 +29,7 @@ const projects = [
         gitHub: 'https://github.com/Emilymora1207/Social-Media-Back-end.git',
         deployed: '#'
     },
+
 ]
 
 export default projects;
