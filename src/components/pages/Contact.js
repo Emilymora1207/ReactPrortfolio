@@ -119,7 +119,7 @@ function Contact() {
     // <div className='section'>
     <div className='contact container'>
       <h1>Contact</h1>
-      <form className="form">
+      {/* <form className="form">
         <input
           value={name}
           name="name"
@@ -146,7 +146,11 @@ function Contact() {
         <button disabled={disabler ? true : false } type="button" onClick={handleFormSubmit}>
        Submit
         </button>
-      </form>
+      </form> */}
+      <label style={{display: 'flex', alignItems: 'center'}}><h3>Email:</h3>
+      <p style={{padding: '10px'}}>Emilymora1207@gmail.com</p></label>
+      <label style={{display: 'flex', alignItems: 'center'}}><h3>Phone Number: </h3>
+      <p style={{padding: '10px'}}>(916) 633-8747</p></label>
     </div>
     // </div>
   );
