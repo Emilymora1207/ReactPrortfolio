@@ -3,7 +3,7 @@ const projects = [
         title: 'Medication Tracker',
         image: './assets/medicationTracker.png',
         gitHub: 'https://github.com/Emilymora1207/MedicationTracker.git',
-        deployed: 'https://stark-brook-88760.herokuapp.com/'
+        deployed: 'https://vast-atoll-15971.herokuapp.com/'
     },
     {
         title: 'weatherforecast',
