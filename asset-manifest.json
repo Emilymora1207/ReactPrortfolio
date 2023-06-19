@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/ReactPrortfolio/static/css/main.4779fce2.css",
-    "main.js": "/ReactPrortfolio/static/js/main.bff40a25.js",
+    "main.css": "/ReactPrortfolio/static/css/main.5dcb79ab.css",
+    "main.js": "/ReactPrortfolio/static/js/main.d16ec2a4.js",
     "static/media/headerBackground.jpg": "/ReactPrortfolio/static/media/headerBackground.ad40535717c06045cba6.jpg",
-    "static/media/weatherProjectImage.png": "/ReactPrortfolio/static/media/weatherProjectImage.c5e93cab68fd64464943.png",
+    "static/media/weatherProjectImage.png": "/ReactPrortfolio/static/media/weatherProjectImage.a45791f070d32d2c2d9d.png",
     "static/media/profilePic.jpg": "/ReactPrortfolio/static/media/profilePic.257f8b31aa0769b524ba.jpg",
     "static/media/passwordGenerator.png": "/ReactPrortfolio/static/media/passwordGenerator.1c334ef6742d2438eaef.png",
+    "static/media/medicationTracker.png": "/ReactPrortfolio/static/media/medicationTracker.03da7efec28a986a7981.png",
     "static/media/steve-johnson-n1PufI05GMo-unsplash (1).jpg": "/ReactPrortfolio/static/media/steve-johnson-n1PufI05GMo-unsplash (1).9c5e4b7ab165d796e89f.jpg",
+    "static/media/socBackEnd.png": "/ReactPrortfolio/static/media/socBackEnd.ef2557be39b39dd6608c.png",
     "static/media/dailyPlanner.png": "/ReactPrortfolio/static/media/dailyPlanner.a8676462f7cf048ae8fd.png",
     "static/media/github-logo_icon-icons.com_73546.svg": "/ReactPrortfolio/static/media/github-logo_icon-icons.com_73546.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
     "static/media/icons8-linkedin.svg": "/ReactPrortfolio/static/media/icons8-linkedin.f184c035973fb8b372890092b7d85323.svg",
     "index.html": "/ReactPrortfolio/index.html",
-    "main.4779fce2.css.map": "/ReactPrortfolio/static/css/main.4779fce2.css.map",
-    "main.bff40a25.js.map": "/ReactPrortfolio/static/js/main.bff40a25.js.map"
+    "main.5dcb79ab.css.map": "/ReactPrortfolio/static/css/main.5dcb79ab.css.map",
+    "main.d16ec2a4.js.map": "/ReactPrortfolio/static/js/main.d16ec2a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4779fce2.css",
-    "static/js/main.bff40a25.js"
+    "static/css/main.5dcb79ab.css",
+    "static/js/main.d16ec2a4.js"
   ]
 }
