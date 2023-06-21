@@ -94,7 +94,13 @@ img {
 
 .aboutSection {
   display: flex;
+  align-items: center;
 }
+
+/* .aboutParagraph {
+  display: flex;
+  flex-direction: column;
+} */
 
 .aboutSection * {
   margin: 20px;
@@ -173,7 +179,7 @@ img {
   /* transition: .5s; */
 } 
 
-.mainProject {
+/* .mainProject {
   margin: 10%;
   height: auto;
   width: 80%;
@@ -190,7 +196,7 @@ img {
   height: 80%;
   width: 400px;
   transition: 0.5s;
-}
+} */
 
 .overlay {
   background-color: rgba(255, 255, 255, 0.0);
@@ -203,8 +209,9 @@ img {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.projectLinks {
+.projectInfo {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   opacity: 0;
@@ -213,7 +220,25 @@ img {
   transition: 0.5s;
 }
 
-.projectLinks:hover {
+.projectLinks { 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.skillsAndDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.skillsAndDesc p {
+  margin: 4px;
+}
+
+.projectInfo:hover {
   opacity: 1;
   transition: .5s;
 }
@@ -221,7 +246,6 @@ img {
 .projectLinks a {
   height: 30px;
   transition: 0.5s;
-
 }
 
 .projectLinks a:hover {
