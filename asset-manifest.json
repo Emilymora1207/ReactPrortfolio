@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPrortfolio/static/css/main.5dcb79ab.css",
-    "main.js": "/ReactPrortfolio/static/js/main.d16ec2a4.js",
+    "main.css": "/ReactPrortfolio/static/css/main.c36476df.css",
+    "main.js": "/ReactPrortfolio/static/js/main.7927c458.js",
     "static/media/headerBackground.jpg": "/ReactPrortfolio/static/media/headerBackground.ad40535717c06045cba6.jpg",
     "static/media/weatherProjectImage.png": "/ReactPrortfolio/static/media/weatherProjectImage.a45791f070d32d2c2d9d.png",
     "static/media/profilePic.jpg": "/ReactPrortfolio/static/media/profilePic.257f8b31aa0769b524ba.jpg",
@@ -13,11 +13,11 @@
     "static/media/github-logo_icon-icons.com_73546.svg": "/ReactPrortfolio/static/media/github-logo_icon-icons.com_73546.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
     "static/media/icons8-linkedin.svg": "/ReactPrortfolio/static/media/icons8-linkedin.f184c035973fb8b372890092b7d85323.svg",
     "index.html": "/ReactPrortfolio/index.html",
-    "main.5dcb79ab.css.map": "/ReactPrortfolio/static/css/main.5dcb79ab.css.map",
-    "main.d16ec2a4.js.map": "/ReactPrortfolio/static/js/main.d16ec2a4.js.map"
+    "main.c36476df.css.map": "/ReactPrortfolio/static/css/main.c36476df.css.map",
+    "main.7927c458.js.map": "/ReactPrortfolio/static/js/main.7927c458.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dcb79ab.css",
-    "static/js/main.d16ec2a4.js"
+    "static/css/main.c36476df.css",
+    "static/js/main.7927c458.js"
   ]
 }
