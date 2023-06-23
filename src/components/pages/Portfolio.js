@@ -60,6 +60,7 @@ function Portfolio() {
                     <a href={project.deployed} target="_blank">{project.title}</a>
                     <a href={project.gitHub} target="_blank"><img className='githubLogo' src={gitHub} /></a>
                   </div>
+                  {/* adds skills and descriptions to each project */}
                   <div className='skillsAndDesc'>
                   <p>{project.skills}</p>
                   <p>{project.description}</p>
