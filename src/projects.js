@@ -1,20 +1,20 @@
 const projects = [
-    {
-        title: 'Medication Tracker',
-        image: './assets/medicationTracker.png',
-        gitHub: 'https://github.com/Emilymora1207/MedicationTracker.git',
-        deployed: 'https://vast-atoll-15971.herokuapp.com/',
-        skills: 'MERN Stack',
-        description: 'Tracks medications needed to take each day'
-    },
-    {
-        title: 'weatherforecast',
-        image: './assets/weatherProjectImage.png',
-        gitHub: 'https://github.com/Emilymora1207/Weather-Forecast.git',
-        deployed: 'https://emilymora1207.github.io/Weather-Forecast/',
-        skills: 'JavaScript, APIs',
-        description: 'A 5 day forecast for any location'
-    },
+    // {
+    //     title: 'Medication Tracker',
+    //     image: './assets/medicationTracker.png',
+    //     gitHub: 'https://github.com/Emilymora1207/MedicationTracker.git',
+    //     deployed: 'https://vast-atoll-15971.herokuapp.com/',
+    //     skills: 'MERN Stack',
+    //     description: 'Tracks medications needed to take each day'
+    // },
+    // {
+    //     title: 'weatherforecast',
+    //     image: './assets/weatherProjectImage.png',
+    //     gitHub: 'https://github.com/Emilymora1207/Weather-Forecast.git',
+    //     deployed: 'https://emilymora1207.github.io/Weather-Forecast/',
+    //     skills: 'JavaScript, APIs',
+    //     description: 'A 5 day forecast for any location'
+    // },
     {
         title: 'Daily Planner',
         image: './assets/dailyPlanner.png',
