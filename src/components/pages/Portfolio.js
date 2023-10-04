@@ -50,12 +50,9 @@ function Portfolio() {
             <circle cx="25" cy="25" r="25" stroke="none" fill="rgb(106, 233, 77)" />
           </svg>
         </div>
-        <img src={medProject1} style={{ width: '25%', position: 'absolute', bottom: '50px', left: '50px', zIndex: '1' }} />
-        <img src={medProject2} style={{
-          width: "75%",
-          position: 'absolute', right: '50px', top: '150px'
-        }} />
-        <img src={logo} style={{height: '300px', boxShadow: 'none', position: 'absolute', bottom: '100px', left: '400px', zIndex: '2'}}/>
+        <img src={medProject1} className="medPro1" />
+        <img className="medPro2" src={medProject2} />
+        <img className="medLogo" src={logo} style={{boxShadow: 'none', zIndex: '2'}}/>
         <div className='largeProjectInfo'>
           <p>MERN Stack</p>
           <p>Tracks medications needed <br/>to take each day</p>
